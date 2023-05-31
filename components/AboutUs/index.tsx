@@ -3,13 +3,13 @@ import React from 'react';
 
 const AboutUs: React.FC = () => {
   return (
-    <div className="p-10 relative my-20">
-      <div className='absolute '>
+    <div className="p-10 relat my-20 h-auto">
+      {/* <div className=''>
         <Image src="/assets/icons/roads.png" fill={true} alt='Roads' />
-      </div>
-      <div className="z-60 absolute">
+      </div> */}
+      <div className="">
       <div className="flex items-center justify-center">
-      <div className="w-[615 flex items-center justify-center">
+      <div className="w-[615] flex items-center justify-center">
       <div className="bg-[#222222] rounded-lg p-4 border border-red-500 text-white w-[615px]">
         <h1 className="text-3xl font-bold mb-4">About Us</h1>
         <p>
