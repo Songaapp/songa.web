@@ -1,7 +1,6 @@
-import AboutUs from '@/components/AboutUs'
-import { Hero } from '@/components'
-import Image from 'next/image'
-import GeneralPage from '@/components/GeneralPage'
+import Hero  from '@/components/Landing/Hero'
+import GeneralPage from '@/components/Landing/GeneralPage'
+import AboutUs from '@/components/Landing/AboutUs'
 
 export default function Home() {
   return (
